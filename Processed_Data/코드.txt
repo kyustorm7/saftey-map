@@ -1,0 +1,28 @@
+library(googleAuthR)
+library(googleAnalyticsR)
+library(searchConsoleR)
+
+library(sp)
+library(raster)
+library(rasterVis)
+library(maptools)
+library(rgeos)
+library(dismo)
+library(mapsapi)
+library(devtools)
+library(RgoogleMaps)
+library(ggmap)
+library(ggpolot2)
+
+register_google(key='AIzaSyBOc4kTJ68iuOw5EvHcjPp7dLZ_WQ9sBh4')
+
+--------------------------------------------
+kumap<-get_map(c(lon=127.0278, lat=37.5880),zoom=15, scale=1)
+kumap_st<-get_map(c(lon=127.0278, lat=37.5908),zoom=13, scale=1, maptype="satellite")
+kumap_tn<-get_map(c(lon=127.0278, lat=37.5908),zoom=13, scale=1, maptype="toner")
+
+coord<-read.csv(file="coord.csv")
+ggmap(kumap)+ 
+	geom_point(aes(lon,lat), data=coord, color="yellow")
+ggmap(kumap)+
+	geom_tile(aes(lon,lat), data=coord)

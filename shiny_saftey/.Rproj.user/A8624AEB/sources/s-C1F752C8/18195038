@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574061429843.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "18195038",
+    "lastKnownWriteTime" : 1574062985,
+    "last_content_update" : 1574062985010,
+    "path" : "C:/Users/user/Desktop/빅데이터 분석 발표회/R_final/shiny_saftey/saftey_map_sb/app.R",
+    "project_path" : "saftey_map_sb/app.R",
+    "properties" : {
+        "cursorPosition" : "17,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,13 @@
+name: saftey_map_sb
+title: saftey_map_sb
+username:
+account: sfteymap-sb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1486132
+bundleId: 2597127
+url: https://sfteymap-sb.shinyapps.io/saftey_map_sb/
+when: 1574069585.64607
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: bell_sb.csv|cctv_sb.csv|lights_sb.csv|police_sb.csv
